@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "spacing"
   ],
   "css-spacing": {
     "type": "git",
