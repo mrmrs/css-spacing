@@ -170,7 +170,7 @@ or download the css on github and include in your project.
 .mhxl  {  margin-left: 8rem;  margin-right: 8rem; }
 .mhxxl  { margin-left: 16rem; margin-right: 16rem; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .pan-ns  {  padding: 0; }
   .paxs-ns {  padding: .25rem; }
   .pas-ns  {  padding: .5rem; }
@@ -298,7 +298,7 @@ or download the css on github and include in your project.
 
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .pan-m  {  padding: 0; }
   .paxs-m {  padding: .25rem; }
   .pas-m  {  padding: .5rem; }
@@ -427,7 +427,7 @@ or download the css on github and include in your project.
 
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .pan-l  {  padding: 0; }
   .paxs-l {  padding: .25rem; }
   .pas-l  {  padding: .5rem; }
