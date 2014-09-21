@@ -22,7 +22,13 @@
     "url": "http://mrmrs.cc"
   },
   "contributors": [
-    { "name": "Adam Morse", "email": "hi@mrmrs.cc" }
+    {
+      "name": "Adam Morse",
+      "email": "hi@mrmrs.cc"
+    }
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-autoprefixer": "^1.0.0"
+  }
 }
