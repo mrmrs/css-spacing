@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-spacing)
 ## File Size
 
 18K spacing.css
-13K spacing.min.css
+13K spacing.min.css 
+1minified and gzipped
 
 ## The Code
 ```
