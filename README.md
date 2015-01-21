@@ -20,7 +20,7 @@ View on [npm](https://www.npmjs.org/package/css-spacing)
 ## File Size
 
 18K spacing.css
-13K spacing.min.css 
+13K spacing.min.css
 1minified and gzipped
 
 ## The Code
@@ -572,7 +572,7 @@ View on [npm](https://www.npmjs.org/package/css-spacing)
 
 The MIT License (MIT)
 
-Copyright (c) 2014 @mrmrs
+Copyright (c) 2015 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
