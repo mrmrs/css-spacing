@@ -33,6 +33,6 @@
     "tachyons-cli": "^0.3.2"
   },
   "scripts": {
-    "start": "tachyons src/tachyons-base.css > css/tachyons-base.css && tachyons src/tachyons-base.css --minify > css/tachyons-base.min.css && tachyons src/tachyons-base.css --generate-docs --package=../../package.json > readme.md"
+    "start": "tachyons src/css-spacing.css > css/css-spacing.css && tachyons src/css-spacing.css --minify > css/css-spacing.min.css && tachyons src/css-spacing.css --generate-docs --package=../../package.json > readme.md"
   }
 }
