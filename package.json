@@ -1,7 +1,7 @@
 {
   "name": "css-spacing",
   "style": "spacing.css",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "http://github.com/mrmrs/css-spacing",
   "description": "Css module of single purpose classes for spacing",
   "keywords": [
