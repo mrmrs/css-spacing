@@ -1,7 +1,7 @@
 {
   "name": "css-spacing",
   "style": "spacing.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-spacing",
   "description": "Css module of single purpose classes for spacing",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-spacing.css > css/css-spacing.css && tachyons src/css-spacing.css --minify > css/css-spacing.min.css && tachyons src/css-spacing.css --generate-docs --package=../../package.json > readme.md"
