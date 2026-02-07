@@ -30,6 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "lightningcss": "^1"
   },
   "scripts": {
   }
