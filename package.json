@@ -1,38 +1,44 @@
 {
   "name": "css-spacing",
-  "style": "spacing.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-spacing",
-  "description": "Css module of single purpose classes for spacing",
+  "version": "2.0.0",
+  "description": "Functional CSS for spacing",
+  "style": "dist/spacing.css",
+  "main": "dist/spacing.css",
+  "exports": {
+    ".": "./dist/spacing.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "spacing"
+    "spacing",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-spacing": {
+  "homepage": "https://github.com/mrmrs/css-spacing",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-spacing.git"
+    "url": "https://github.com/mrmrs/css-spacing.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-spacing/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-spacing/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
