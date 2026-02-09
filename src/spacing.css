@@ -152,7 +152,7 @@
 .mhxl  {  margin-left: 8rem;  margin-right: 8rem; }
 .mhxxl  { margin-left: 16rem; margin-right: 16rem; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .pan-s  {  padding: 0; }
   .paxs-s {  padding: .25rem; }
   .pas-s  {  padding: .5rem; }
@@ -280,7 +280,7 @@
 
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .pan-m  {  padding: 0; }
   .paxs-m {  padding: .25rem; }
   .pas-m  {  padding: .5rem; }
@@ -409,7 +409,7 @@
 
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .pan-l  {  padding: 0; }
   .paxs-l {  padding: .25rem; }
   .pas-l  {  padding: .5rem; }
