@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { transform } = require('lightningcss');
 
-const srcFile = path.join(__dirname, 'src', 'css-spacing.css');
+const srcFile = path.join(__dirname, 'src', 'spacing.css');
 const distDir = path.join(__dirname, 'dist');
 
 // Read source
@@ -15,22 +15,22 @@ if (!fs.existsSync(distDir)) {
 
 // Unminified — just normalize formatting
 const { code: unminified } = transform({
-  filename: 'css-spacing.css',
+  filename: 'spacing.css',
   code: Buffer.from(source),
   minify: false,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-spacing.css'), unminified);
+fs.writeFileSync(path.join(distDir, 'spacing.css'), unminified);
 
 // Minified
 const { code: minified } = transform({
-  filename: 'css-spacing.css',
+  filename: 'spacing.css',
   code: Buffer.from(source),
   minify: true,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-spacing.min.css'), minified);
+fs.writeFileSync(path.join(distDir, 'spacing.min.css'), minified);
 
 console.log('Build complete:');
-console.log(`  dist/css-spacing.css     ${unminified.length} bytes`);
-console.log(`  dist/css-spacing.min.css ${minified.length} bytes`);
+console.log(`  dist/spacing.css     ${unminified.length} bytes`);
+console.log(`  dist/spacing.min.css ${minified.length} bytes`);
